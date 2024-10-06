@@ -8,7 +8,7 @@ export default function GetUser() {
   const fetchUser = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3000/v1/users/" + userId);
+      const response = await fetch("https://node-js-server-pkx5.onrender.com/v1/users/" + userId);
       const data = await response.json();
 
       if (response.ok) {
