@@ -12,7 +12,7 @@ export default function DeleteUser() {
     }
 
     try {
-      const response = await fetch("http://localhost:3000/v1/users/" + userId, {
+      const response = await fetch("https://node-js-server-pkx5.onrender.com/v1/users/" + userId, {
         method: "DELETE",
       });
 
