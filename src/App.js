@@ -12,7 +12,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function App() {
-  const getAllUsersUrl = "https://node-js-server-hfhh.onrender.com/v1/users/all";
+  const getAllUsersUrl = "https://node-js-server-fcpl.onrender.com/v1/users/all";
   const [users, setUsers] = useState([]);
   const [isFetching, setIsFetching] = useState(false);
 
