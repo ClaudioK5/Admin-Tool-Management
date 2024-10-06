@@ -20,7 +20,7 @@ export default function UpdateUser() {
 
     try {
       const response = await fetch(
-        "https://node-js-server-pkx5.onrender.com/v1/update" + userId,
+        "https://node-js-server-pkx5.onrender.com/v1/update/" + userId,
         {
           method: "PUT",
           headers: {
